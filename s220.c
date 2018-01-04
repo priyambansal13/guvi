@@ -5,7 +5,7 @@ int main()
 	
 	scanf("%d",&n);
     
-    for(j=1;j<=10;j++)
+    for(j=1;j<=5;j++)
     {
        t=n*j;    
        printf("%d\t",t);
