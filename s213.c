@@ -1,7 +1,7 @@
 #include <stdio.h>
-int main()
+void main()
 {
-    int n, i, flag = 0;
+    int n, i, flag = 1;
 
     printf("Enter a positive integer: ");
     scanf("%d",&n);
@@ -11,15 +11,15 @@ int main()
         
         if(n%i==0)
         {
-            flag=1;
+            flag=0;
             break;
         }
     }
 
-    if (flag==0)
-        printf("%d is a prime number.",n);
+    if (flag==1)
+        printf("%d ",n);
     else
-        printf("%d is not a prime number.",n);
+        printf("%d",n);
     
     return 0;
 }
