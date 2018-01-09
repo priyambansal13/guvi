@@ -2,8 +2,6 @@
  
 int main() {
    int arr[30], i, j, num, temp;
- 
-   printf("\nEnter no of elements : ");
    scanf("%d", &num);
  
    
@@ -21,9 +19,6 @@ int main() {
       i++;          
       j--;          
    }
- 
-  
-   printf("\nResult after reversal : ");
    for (i = 0; i < num; i++) {
       printf("%d->", arr[i]);
    }
